@@ -1,27 +1,92 @@
-# Essentials
+# 📌 Angular Course - First Module Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+Welcome to my **Angular Course - First Module Project** repository! 🚀  
+This project is part of my journey learning **Angular**, covering fundamental concepts like **Directives, Components, Services, and more!**
 
-## Development server
+## 📚 Topics Covered
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### 🔹 Directives
 
-## Code scaffolding
+Angular directives extend HTML with custom behaviors. Used for **structural changes (`*ngIf`, `*ngFor`)** and **attribute modifications (`[ngClass]`, `[ngStyle]`)**.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### 🔹 Property Binding
 
-## Build
+One-way data binding that dynamically updates element properties using **`[property]`** syntax.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### 🔹 Angular Components
 
-## Running unit tests
+Reusable building blocks of an Angular application, defined using `@Component`. Each component consists of an **HTML template, TypeScript logic, and CSS styling**.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### 🔹 Angular Services
 
-## Running end-to-end tests
+Used for **shared logic and dependency injection**, making data and functions available across components.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### 🔹 @Output, @Input, @Component Decorators
 
-## Further help
+- **`@Input()`** → Allows passing data **from parent to child components**.
+- **`@Output()`** → Emits events **from child to parent components**.
+- **`@Component()`** → Defines metadata for a component, such as template, selector, and styles.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### 🔹 Signals
+
+A reactive approach in Angular to manage state updates efficiently without performance issues.
+
+### 🔹 String Interpolation & Two-way Binding (`ngModel`)
+
+- **String Interpolation (`{{ }}`)** → Displays dynamic values in templates.
+- **Two-way Binding (`ngModel`)** → Synchronizes data between the **model and the UI**.
+
+### 🔹 Custom Event Emitters
+
+Allow components to **emit custom events** using `EventEmitter` and `@Output()` for better communication.
+
+### 🔹 Dependency Injection
+
+A design pattern used in Angular for **injecting services** into components and other services to **manage dependencies efficiently**.
+
+### 🔹 Slots with `ng-content`
+
+Allows components to use **content projection**, meaning they can receive and display **dynamic content from their parent**.
+
+### 🔹 Model Interfaces (TypeScript)
+
+Define **strict data structures** for components, ensuring **type safety and better code maintainability**.
+
+---
+
+## 🚀 How to Run the Project
+
+1. Clone the repository:  
+   git clone https://github.com/richardnascimento18/angular_essentials_practice.git
+
+2. Navigate to the project folder:  
+   cd angular-first-module
+
+3. Install dependencies:  
+   npm install
+
+4. Start the development server:  
+   npm start
+
+5. Open your browser and go to `http://localhost:4200/` 🚀
+
+---
+
+## 🛠 Technologies Used
+
+- **Angular 17**
+- **TypeScript**
+- **HTML & CSS**
+- **Angular CLI**
+
+---
+
+## 📌 About This Repository
+
+This is a **course project** from an **Udemy Angular course**, focused on applying **Angular Essentials**. Feel free to explore or use it as a reference! 😃
+
+🔗 **Connect with me:** `https://linkedin.com/in/richardnascimento18`
+
+---
+
+📝 _Happy Coding!_ 🎯✨
